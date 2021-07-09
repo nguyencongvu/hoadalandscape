@@ -1,0 +1,123 @@
+{
+    "title": "Main website",
+    "site_id": 1,
+    "layout": 1,
+    "objects": [
+        {
+            "type": "header",
+            "color": "#f8f8f8",
+            "doc_order": 10
+        },
+        {
+            "type": "menu",
+            "slug": "main-menu",
+            "doc_order": 20
+        },
+        {
+            "type": "slider",
+            "height": "70vh",
+            "doc_order": 30
+        },
+        {
+            "type": "page",
+            "slug": "gioi-thieu",
+            "align": "right",
+            "color": "#f8f8f8",
+            "doc_order": 40
+        },
+        {
+            "type": "image",
+            "index": 1,
+            "ratio": "3/1",
+            "link": "#",
+            "text": "Banner Image",
+            "doc_order": 60
+        },
+        {
+            "type": "category",
+            "title": "Our Services",
+            "summary": "Our main services",
+            "slug": "product",
+            "ratio": "3/3",
+            "count": 6,
+            "doc_order": 50
+        },
+        {
+            "type": "features",
+            "title": "Core Values",
+            "summary": "Our Core Values",
+            "count": 4,
+            "slug": "features",
+            "doc_order": 70
+        },
+        {
+            "type": "posts",
+            "count": 8,
+            "slug": "blog",
+            "title": "Latest Posts",
+            "summary": "Latest Posts",
+            "doc_order": 100
+        },
+        {
+            "type": "contact",
+            "slug": "lien-he",
+            "title": "Contact Us",
+            "summary": "Leave us a message",
+            "bg": "/images/bg-1.png",
+            "dark": true,
+            "doc_order": 110
+        },
+        {
+            "type": "gallery",
+            "count": 12,
+            "slug": "bg",
+            "title": "Our Gallery",
+            "summary": "Hình ảnh hoạt động",
+            "doc_order": 130
+        },
+        {
+            "type": "testimonial",
+            "count": 6,
+            "slug": "bg",
+            "title": "Testimonials",
+            "summary": "Nhận xét của khách hàng",
+            "doc_order": 140
+        },
+        {
+            "type": "product_tabs",
+            "count": 3,
+            "ratio": "3/5",
+            "objects": [
+                {
+                    "title": "Arrival",
+                    "slug": "hang-moi",
+                    "count": 4
+                },
+                {
+                    "title": "Sale Off",
+                    "slug": "hang-sale",
+                    "count": 4
+                }
+            ],
+            "doc_order": 150
+        },
+        {
+            "type": "post_tabs",
+            "count": 2,
+            "ratio": "16/9",
+            "objects": [
+                {
+                    "title": "Company News",
+                    "slug": "tin-cong-ty",
+                    "count": 4
+                },
+                {
+                    "title": "Industry News",
+                    "slug": "tin-nganh",
+                    "count": 4
+                }
+            ],
+            "doc_order": 160
+        }
+    ]
+}

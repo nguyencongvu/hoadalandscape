@@ -1,0 +1,124 @@
+{
+    "title": "Main website",
+    "site_id": 1,
+    "layout": 1,
+    "objects": [
+        {
+            "type": "header",
+            "color": "#f8f8f8",
+            "doc_order": 10
+        },
+        {
+            "type": "menu",
+            "slug": "main-menu",
+            "doc_order": 20
+        },
+        {
+            "type": "slider",
+            "height": "70vh",
+            "doc_order": 30
+        },
+        {
+            "type": "page",
+            "slug": "gioi-thieu",
+            "align": "right",
+            "color": "#f8f8f8",
+            "doc_order": 40
+        },
+        {
+            "type": "image",
+            "index": 1,
+            "ratio": "5/2",
+            "link": "#",
+            "text": "Banner Image",
+            "doc_order": 60
+        },
+        {
+            "type": "category",
+            "title": "Xu hướng Nổi Bật",
+            "summary": "Các xu hướng thời trang 2021",
+            "slug": "product",
+            "ratio": "1/2",
+            "count": 6,
+            "doc_order": 50
+        },
+        {
+            "type": "features",
+            "title": "Giá trị cốt lõi",
+            "summary": "Các giá trị sản phẩm mang lại",
+            "count": 4,
+            "slug": "features",
+            "doc_order": 70
+        },
+        {
+            "type": "posts",
+            "count": 4,
+            "slug": "blog",
+            "title": "Bài viết mới nhất",
+            "summary": "Các bài viết mới nhất",
+            "doc_order": 100
+        },
+        {
+            "type": "contact",
+            "slug": "lien-he",
+            "title": "Liên hệ với chúng tôi",
+            "summary": "Xem địa chỉ bên dưới",
+            "bg": "https://cdn.pixabay.com/photo/2021/06/17/04/31/finger-6342630_1280.jpg",
+            "dark": true,
+            "doc_order": 110
+        },
+        {
+            "type": "gallery",
+            "count": 8,
+            "slug": "hinh-anh",
+            "title": "Hình ảnh về chúng tôi",
+            "summary": "Hình ảnh hoạt động",
+            "doc_order": 130
+        },
+        {
+            "type": "testimonial",
+            "count": 6,
+            "color": "#f9f9f9",
+            "slug": "khach-hang",
+            "title": "Khách hàng nói gì",
+            "summary": "Nhận xét của khách hàng",
+            "doc_order": 140
+        },
+        {
+            "type": "product_tabs",
+            "count": 2,
+            "ratio": "3/5",
+            "objects": [
+                {
+                    "title": "Hàng mới",
+                    "slug": "hang-moi",
+                    "count": 4
+                },
+                {
+                    "title": "Hàng sale",
+                    "slug": "hang-sale",
+                    "count": 4
+                }
+            ],
+            "doc_order": 150
+        },
+        {
+            "type": "post_tabs",
+            "count": 2,
+            "ratio": "16/9",
+            "objects": [
+                {
+                    "title": "Tin công ty",
+                    "slug": "tin-cong-ty",
+                    "count": 4
+                },
+                {
+                    "title": "Tin ngành",
+                    "slug": "tin-nganh",
+                    "count": 4
+                }
+            ],
+            "doc_order": 160
+        }
+    ]
+}
