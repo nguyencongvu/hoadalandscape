@@ -1,11 +1,12 @@
 let isLocal = location.href.includes('localhost')
 
 const API_LOCAL = 'http://localhost:3000'
-const API_SERVER = 'https://api.webup.top'  // CHANGE-HERE
+// const API_SERVER = 'https://api.webup.top'  // CHANGE-HERE
+const API_SERVER = 'https://api.hitime.vn'  // CHANGE-HERE
 let API = isLocal ? API_LOCAL : API_SERVER
 
 const WEB_URL = 'https://danhba.top/web/shilenanailsspa' // CHANGE-HERE 
-const DOMAIN = 'shilenanailsspa' // CHANGE-HERE 
+const DOMAIN = 'hoadalandscape' // CHANGE-HERE 
 const TOKEN = '123456789' // CHANGE-HERE 
 const PLAN = 2
 

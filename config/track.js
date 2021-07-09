@@ -1,9 +1,9 @@
 
 const API_LOCAL = "http://localhost:3001/v1/api"
-const API_SERVER = 'https://api.webup.top/v1/api' // CHANGE-HERE 
-// const API_SERVER = 'https://api.hitime.vn' // CHANGE-HERE 
+// const API_SERVER = 'https://api.webup.top/v1/api' // CHANGE-HERE 
+const API_SERVER = 'https://api.hitime.vn' // CHANGE-HERE 
 let API = (location.href.includes('localhost')) ? API_LOCAL : API_SERVER
-const DOMAIN = "shilenanailsspa"
+const DOMAIN = "hoadalandscape"
 
 class Track {
     constructor(name) {

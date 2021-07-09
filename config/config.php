@@ -12,7 +12,7 @@ $VENDOR_DIR = '';
 
 $VERSION = "0.9.3";  
 $DEFAULT_LANG = 'en';  // CHANGE-HERE
-$customer = "shilenanailsspa" ; // CHANGE-HERE 
+$customer = "hoadalandscape" ; // CHANGE-HERE 
 
 if (is_local()) {  //DEV 
     $SUB = '';
@@ -22,11 +22,12 @@ if (is_local()) {  //DEV
     $admin_api = 'http://localhost:3002';
 
 } else {  // PROD 
-    $SUB = '/web/shilenanailsspa';
-    $VENDOR_DIR = __DIR__ . '/../../../../vendor/autoload.php'; // CHANGE-HERE 
+    // $SUB = '/web/shilenanailsspa';
+    $SUB = ''
+    $VENDOR_DIR = __DIR__ . '/vendor/autoload.php'; // CHANGE-HERE 
 
-    $api = 'https://api.webup.top'; 
-    $admin_api = 'https://module.webup.top'; 
+    $api = 'https://api.hitime.vn'; 
+    $admin_api = 'https://module.hitime.vn'; 
 
 }
 
